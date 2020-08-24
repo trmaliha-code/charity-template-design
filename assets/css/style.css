@@ -1,0 +1,141 @@
+.top-header,
+.donate-btn,
+.join-with-us{
+    background-color: #EBB973;
+    color: white;
+}
+.top-header a{
+    display: block;
+    text-decoration: none;
+    background-color: white;
+    color: #EBB973;
+    font-size: 13px;
+    padding: 3px 8px;
+    border-radius: 3px;
+}
+
+.logo p{
+    font-size: 12px;
+}
+.logo p span{
+    font-family: 'Roboto Slab', serif;
+    font-size: 28px;
+}
+
+.menu ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    display: block;
+    font-family: 'Roboto Slab', serif;
+    color: black;
+    padding: 10px;
+    font-size: 13px;
+}
+
+.donate-btn,
+.join-with-us{
+    font-size: 13px;
+    padding: 12px;
+    margin-left: 10px;
+    border: 0;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.donate-btn:hover,
+.join-with-us:hover{
+    color: black;
+}
+
+.banner{
+    background-image: url("../../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+    position: relative;
+}
+.img-overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+}
+.banner-text{
+    position: absolute;
+    top: 0;
+    color: white;
+    padding: 260px 380px;
+}
+.banner-text h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 48px;
+}
+
+.more-info-row{
+    position: absolute;
+    bottom: -60%;
+    left: 5%;
+    right: 5%;
+    background-color: white;
+    -webkit-box-shadow: 0px 5px 12px 0px rgb(211,211,211,0.75);
+    -moz-box-shadow: 0px 5px 12px 0px rgb(211,211,211,0.75);
+    box-shadow: 0px 5px 12px 0px rgb(211,211,211,0.75);
+}
+.more-info .fa{
+    color: #EBB973;
+    font-size: 35px;
+    margin-bottom: 13px;
+}
+.option{
+    padding-left: 30px;
+    margin: 30px 0;
+    border-right: 1px lightgray dotted;
+}
+.last-border{
+    border-right:0;
+}
+    
+.option h3,
+footer h2{
+    font-family: 'Roboto Slab', serif;
+}
+
+.read-more{
+    background-color: transparent;
+    border: 0;
+    padding-left: 0;
+}
+.read-more:hover{
+    color: #EBB973;
+}
+
+footer{
+    margin-top: 20%;
+    padding: 70px 0 20px;
+    background-color: #F2F2F2;
+}
+footer p{
+    color: gray;
+    margin-top: 25px;
+}
+.bottom-border{
+    position: relative;
+}
+.bottom-border::after{
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 68px;
+    width: 75px;
+    height: 5px;
+    background-color: #EBB973;
+    border-radius: 3px;
+}
