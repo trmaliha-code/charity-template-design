@@ -139,3 +139,79 @@ footer p{
     background-color: #EBB973;
     border-radius: 3px;
 }
+
+
+/* Responsive Part */
+@media screen and (max-width: 1140px){
+    .banner{
+        position: relative;
+    }
+    .banner-text{
+        position: absolute;
+        top: 0;
+        padding: 180px 280px;
+    }
+    .banner-text h1{
+        font-size: 36px;
+    }
+    .more-info-row{
+        position: absolute;
+        bottom: -70%;
+        left: 5%;
+        right: 5%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .banner{
+        position: relative;
+    }
+    .banner-text{
+        position: absolute;
+        top: 0;
+        padding: 150px 250px;
+    }
+    .banner-text h1{
+        font-size: 30px;
+    }
+    .banner-text h5,
+    .banner-text p{
+        font-size: 13px;
+    }
+    .donate-btn,
+    .join-with-us{
+        font-size: 10px;
+    }
+    .more-info-row{
+        position: absolute;
+        bottom: -165%;
+        left: 5%;
+        right: 5%;
+    }
+    footer{
+        margin-top: 100%;
+    }
+    .links{
+        margin: 0 140px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .banner{
+        position: relative;
+    }
+    .banner-text{
+        position: absolute;
+        top: 0;
+        padding: 100px 170px;
+    }
+    .more-info-row{
+        position: absolute;
+        bottom: -175%;
+        left: 5%;
+        right: 5%;
+    }
+    footer{
+        margin-top: 150%;
+    }
+}
